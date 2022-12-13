@@ -1,0 +1,43 @@
+# build.properties
+#
+
+# Specify the login credentials for the desired Salesforce organization
+#this is for Production
+#sf.username = deployment_user@persistent.com
+#sf.password = Deployment@12345pyx8UsPrVW3v5FAGkQJ0M23ZC
+
+
+#this is for UAT
+sf.username_uat = deployment_user@persistent.com.uat
+sf.password_uat = Deployment@123456ULqwI3RmCRFiVLfYrITQTgD0
+
+#this is for SIT
+sf.username_sit = deployment_user@persistent.com.qaclean
+sf.password_sit = Deployment@123456gtf5wxlHSNEmv80Z5nlRvdPy
+
+
+#this is of DevPsl1
+sf.username = deployment_user@persistent.com.dev
+sf.password = Deployment@123456
+
+#this is for HotFix
+#sf.username = deployment_user@persistent.com.hotfix
+#sf.password = Deployment@12345sQN5qxqsnclUPG8u7SLT7HgH
+
+
+#this is for Baroda++UAT
+#sf.username = deployment_user@persistent.com.barodauatp
+#sf.password = Deployment@12345sJAXwATBhqpbnbLl2nh9MtARX
+
+#sf.sessionId = <Insert your Salesforce session id here.  Use this or username/password above.  Cannot use both>
+#sf.pkgName = <Insert comma separated package names to be retrieved>
+#sf.zipFile = <Insert path of the zipfile to be retrieved>
+#sf.metadataType = <Insert metadata type name for which listMetadata or bulkRetrieve operations are to be performed>
+
+# Use 'https://login.salesforce.com' for production or developer edition (the default if not specified).
+# Use 'https://test.salesforce.com for sandbox.
+sf.serverurl = https://test.salesforce.com
+#sf.serverurl = https://login.salesforce.com
+
+sf.maxPoll = 20000
+# If your network requires an HTTP proxy, see http://ant.apache.org/manual/proxy.html for configuration.
