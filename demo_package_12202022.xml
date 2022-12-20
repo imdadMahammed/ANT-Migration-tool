@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Branch_Template</members>
+		<members>City_Template</members>
+		<members>Liability_Template</members>
+		<members>MICR_Template</members>
+		<members>Pincode_Template</members>
+		<name>StaticResource</name>
+	</types>
+	<version>55.0</version>
+</Package>
